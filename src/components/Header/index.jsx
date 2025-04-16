@@ -17,15 +17,7 @@ export default function index({ setCursorIsActive }) {
       document.body.style.left = "0";
       document.body.style.width = "100%";
       document.body.style.height = "100vh";
-    } else {
-      document.body.style.overflow = "hidden";
-      document.body.style.position = "";
-      document.body.style.top = "";
-      document.body.style.left = "";
-      document.body.style.width = "";
-      document.body.style.height = "";
     }
-
     return () => {
       document.body.style.overflow = "auto";
       document.body.style.position = "";

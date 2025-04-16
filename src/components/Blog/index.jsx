@@ -14,7 +14,7 @@ export default function Index({setCursorIsActive}) {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center my-24 px-6">
+    <div className="h-screen flex flex-col items-center justify-center my-24 px-6">
       <h1
         onMouseEnter={() => setCursorIsActive(true)}
         onMouseLeave={() => setCursorIsActive(false)}

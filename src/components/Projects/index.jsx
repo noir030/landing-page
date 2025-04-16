@@ -23,7 +23,7 @@ export default function Index({ setCursorIsActive }) {
       >
         Wir haben Vielseitige Projekterfahrung
       </h1>
-      <div className="my-6">
+      <div className="my-6 lg:block hidden">
         {projects.map((project, i) => {
           const targetScale = 1 - (projects.length - i) * 0.05;
           return (
