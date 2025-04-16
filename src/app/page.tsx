@@ -8,6 +8,7 @@ import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Projects from "@/components/Projects";
 import Blog from "@/components/Blog";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [isCursorActive, setCursorIsActive] = useState(false);
@@ -38,7 +39,7 @@ export default function Home() {
       <Team />
       <Projects setCursorIsActive={setCursorIsActive} />
       <Blog setCursorIsActive={setCursorIsActive} />
-      <div className="h-screen"></div>
+      <Footer />
     </main>
   );
 }
